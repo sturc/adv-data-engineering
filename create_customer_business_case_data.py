@@ -8,7 +8,7 @@ max_orders_per_customer = 20
 max_support_per_customer = 4
 max_emails_per_customer = 12
 
-customer_ids = [f"CUST{i:03}" for i in range(1, num_customers + 1)]
+customer_ids = list(range(1, num_customers + 1))
 
 orders = []
 support = []
